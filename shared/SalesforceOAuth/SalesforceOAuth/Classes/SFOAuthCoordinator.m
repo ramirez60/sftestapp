@@ -345,7 +345,6 @@ static NSString * const kHttpPostContentType                    = @"application/
 
 	NSData *encodedBody = [params dataUsingEncoding:NSUTF8StringEncoding];
 	[request setHTTPBody:encodedBody];
-    
     // We set the timeout value for NSMutableURLRequest above, but NSMutableURLRequest has its own ideas
     // about managing the timeout value (see https://devforums.apple.com/thread/25282).  So we manage
     // the timeout with an NSTimer, which gets started here.
