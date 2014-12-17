@@ -48,6 +48,20 @@
                ReferencedContainer = "container:SalesforceSDKCore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "37CF474C1A410ACE0027D5C6"
+               BuildableName = "libSalesforceSDKCoreLite.a"
+               BlueprintName = "SalesforceSDKCoreLite"
+               ReferencedContainer = "container:SalesforceSDKCore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -57,6 +71,15 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "820AB72318E230EC00E25E1D"
+            BuildableName = "libSalesforceSecurity.a"
+            BlueprintName = "SalesforceSecurity"
+            ReferencedContainer = "container:../SalesforceSecurity/SalesforceSecurity.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -85,6 +108,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "820AB72318E230EC00E25E1D"
+            BuildableName = "libSalesforceSecurity.a"
+            BlueprintName = "SalesforceSecurity"
+            ReferencedContainer = "container:../SalesforceSecurity/SalesforceSecurity.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
